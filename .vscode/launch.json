@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "testpy",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/script/test.py",
+            "console": "integratedTerminal",
+            "args": [
+                    // "-n", "./hello-jni",
+                    // "--file","/home/guoweijie004/workspaces/testdir/jniTest/obj/local/arm64-v8a/hello-jni",
+                    "-r","/home/guoweijie004/workspaces/testdir/jniTest/obj/local/arm64-v8a/hello-jni"
+                ],
+            "env": {
+                "NDK_ROOT": "/home/guoweijie004/Android/Sdk/ndk/20.1.5948944"
+            },
+            
+        },
+
+    ]
+}
